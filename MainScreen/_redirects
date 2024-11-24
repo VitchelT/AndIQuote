@@ -1,0 +1,7 @@
+/* /index.html 200
+# Explicit rules for PersonScreen static pages
+/PersonScreen/AllQuotes.html /PersonScreen/AllQuotes.html 200
+/PersonScreen/SelectedQuoteView.html /PersonScreen/SelectedQuoteView.html 200
+
+# Rule for the root index page
+/index.html /index.html 200

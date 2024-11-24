@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Push TO DataBase</title>
+    <link rel="stylesheet" href="pushToDatabaseDesign.css">
+    <script  src="pushToDatabase.js" defer></script>
+ <!-- Add Firebase SDK with compatibility libraries -->
+ <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-app-compat.js"></script>
+ <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-database-compat.js"></script>
+
+</head>5
+<body>
+    
+
+    <div class="Button"></div>
+
+
+
+        
+        <!-- Add to Database Button -->
+        
+        <button class="addToDatabase" onclick="addVitchel()">Add Vitchel</button>
+
+        <button class="addToDatabaseBtn" onclick="howManyQuotesList2()">How Many Authors On List 2</button>
+
+        <button class="addAQuote" onclick="addQuotes(inputString);;">Add New Quotes</button>
+
+
+        <button class="addToDatabaseBtn" onclick="addToFirebase()">Add to Database</button>
+
+        <button class="addNewAuthor" onclick="addNewAuthor(addNewAuthorNamed)"> Add New Author</button>
+
+        <button class="addAQuote" onclick="addQuote(thisAuthor,newQuote);">Add Quote</button>
+
+        <button class="addManyQuotes" onclick="addManyQuotes(authorName, quotesArray);">Add Many Quotes</button>
+
+        <button class="clearDB" onclick="clearDB()">Clear Database</button>
+</body>
+
+
+
+</html>

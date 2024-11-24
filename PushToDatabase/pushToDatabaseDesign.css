@@ -1,0 +1,46 @@
+body, html {
+    margin: 0;
+    padding: 20;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(14, 14, 14);
+    font-family: Arial, sans-serif;
+}
+
+
+.addToDatabaseBtn {
+
+border-radius: 33px;
+font-size: 33px;
+
+}
+
+.addAQuote {
+
+    border-radius: 33px;
+    font-size: 33px;
+    
+    }
+
+.clearDB {
+
+        border-radius: 33px;
+        font-size: 33px;
+        
+        }
+
+ .addManyQuotes {
+
+            border-radius: 33px;
+            font-size: 33px;
+            
+            }
+
+  .addNewAuthor {
+
+                border-radius: 33px;
+                font-size: 33px;
+                
+                }
